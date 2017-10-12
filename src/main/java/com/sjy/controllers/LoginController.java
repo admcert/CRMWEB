@@ -24,9 +24,9 @@ public class LoginController {
     * 登录路径
     * @return
     */
-	@RequestMapping("/user/login")
+	@RequestMapping("/user/logon")
 	public String login() {
-		return "/login";
+		return "/home";
 	}
 	
 	@RequestMapping("/invalidSession")
